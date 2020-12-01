@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+
+}
+img {
+    max-width: 100%;
+}
+:root {
+    --black: #000000;
+    --white: #ffffff;
+}
+.flex {
+    display: flex;
+}
+.tr {
+    background-color: transparent;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__container {
+    padding-top: 11.5px;
+    padding-bottom: 11.5px;
+    align-items: center;
+}
+
+.header {
+    background-color: var(--black);
+}
+.burger {
+    width: 20px;
+    height: 15px;
+    position: relative;
+    display: block;
+    border: none;
+}
+
+.burger__line:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+
+}
+.burger__line:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: var(--white);
+
+}
+.burger__line:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--white);
+
+}
+.burger:hover .burger__line:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+
+}
+.burger:hover .burger__line:nth-child(2) {
+    width: 80%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: var(--white);
+
+}
+.burger:hover .burger__line:nth-child(3) {
+    width: 50%;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--white);
+
+}
+
+.logo {
+    margin: 0 auto;
+    width: 97px;
+    height: 22px;
+    background-image: url(/img/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+}
+.header__main {
+    display: none;
+}
+.btn-search {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/btn-search.svg);
+    background-size: cover;
+    border: none;
+}
+
+.header__search {
+    display: none;
+}
+.log-in {
+    display: none;
+}
