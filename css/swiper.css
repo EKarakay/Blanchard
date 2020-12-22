@@ -1,85 +1,85 @@
 .gallery-swiper {
-    width: calc((100vw - 320px) * 0.7185);
-    height: 835px;
+  width: calc((100vw - 320px) * 0.7185);
+  height: 835px;
 }
 
 .gallery-slide {
-    align-items: center;
-    height: 350px;
+  align-items: center;
+  height: 350px;
 }
 
 .gallery-slide:nth-child(odd) {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .swiper-btns {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 132px;
-    margin-top: 45px;
-    margin-bottom: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 132px;
+  margin-top: 45px;
+  margin-bottom: 32px;
 }
 
 .swiper-button-prev, .swiper-button-next {
-    position: static;
-    top: 0%;
-    left: 30px;
-    width: 30px;
-    height: 30px;
-    transition: background-color 0.3s ease-in;
-    border: none;
-    border-radius: 100%;
-    background-color: #666666;
+  position: static;
+  top: 0%;
+  left: 30px;
+  width: 30px;
+  height: 30px;
+  transition: background-color 0.3s ease-in;
+  border: none;
+  border-radius: 100%;
+  background-color: #666666;
 }
 
 .swiper-button-prev:focus, .swiper-button-next:focus {
-    border: 2px solid var(--effect);
-    border-radius: 100%;
-    outline: none;
+  border: 2px solid var(--effect);
+  border-radius: 100%;
+  outline: none;
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
-    background-color: var(--effect);
+  background-color: var(--effect);
 }
 
 .swiper-button-prev:active, .swiper-button-next:active {
-    transition: all 0.2s ease-in;
-    border: 2px solid #D1A9F0;
-    background-color: var(--effect);
+  transition: all 0.2s ease-in;
+  border: 2px solid #D1A9F0;
+  background-color: var(--effect);
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {
-    display: none;
+  display: none;
 }
 
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
-    content: '';
+  content: '';
 }
 
 .swiper-button-prev {
-    background-color: #666666;
-    background-image: url('/img/prev.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20%;
+  background-color: #666666;
+  background-image: url('/img/prev.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
 }
 
 .swiper-button-next {
-    background-color: #666666;
-    background-image: url('/img/next.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20%;
+  background-color: #666666;
+  background-image: url('/img/next.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
 }
 
 .swiper-pagination {
-    top: 30px;
-    left: 50px;
-    text-align: left;
-    color: var(--white);
+  top: 30px;
+  left: 50px;
+  text-align: left;
+  color: var(--white);
 }
 
 .swiper-pagination-fraction {
-    bottom: 100%;
+  bottom: 100%;
 }
