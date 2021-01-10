@@ -2,6 +2,22 @@
   .gallery-swiper {
     width: calc((100vw - 40px) * 0.55);
   }
+  .main-nav {
+    width: calc(80% - 246px);
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .top-nav__logo {
+    margin-right: 6%;
+  }
+  .main-nav {
+    width: calc(85% - 246px);
+  }
+  .bottom-nav__item:not(:last-child) {
+    margin-right: 4%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
